@@ -1,13 +1,18 @@
 ﻿#include <stdio.h>
-#define MAX 9
 
 int main(void)
 {
-	
-	printf("==== 구구단 출력 ===\n");
-	for (int i = 2; i <= MAX; i++)
-	{
-		printf("%6d단 출력\n", i);
+	double degree[] = { -5.34 , 3.67 , 19.76 , 28.76 , 35.63 };
+
+	int size = sizeof(degree) / sizeof(double);
+
+	for (int i = 0; i < size; i++) {
+		printf("%.2lf", degree[i]);
 	}
+
+	puts(" ");
+
+	
 	return 0;
-}xs
+	
+}
