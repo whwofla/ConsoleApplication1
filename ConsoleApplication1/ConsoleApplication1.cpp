@@ -10,4 +10,4 @@ int main(void)
 		printf("%6d단 출력\n", i);
 	}
 	return 0;
-}
+}xs
